@@ -28,7 +28,8 @@ Interactive Jupyter Notebook with exploratory data analysis (EDA) and model trai
 ├── expected_columns.pkl            # Expected feature columns for model input
 ├── model.pkl                       # Trained ML model
 ├── requirements.txt                # Python dependencies
-Installation & Setup
+
+# Installation & Setup
 ### Clone the repository
 
 git clone https://github.com/Sonulama778/customer-churn-flask.git
@@ -47,14 +48,19 @@ pip install -r requirements.txt
 ### Running the Application
 
 python app.py
+
 The Flask app will start locally. Open your browser and go to:
 
 http://127.0.0.1:5000/
 
 ## Model Information
-### Algorithm: Machine Learning Classification (e.g., Logistic Regression / Random Forest – as implemented in the notebook)
+### Algorithm: 
 
-### Dataset: Telco Customer Churn (features include demographics, account info, and services subscribed)
+Machine Learning Classification (e.g., Logistic Regression / Random Forest – as implemented in the notebook)
+
+### Dataset: 
+
+Telco Customer Churn (features include demographics, account info, and services subscribed)
 
 ### Preprocessing:
 
