@@ -14,22 +14,24 @@ Flask backend serving predictions via a web interface.
 Interactive Jupyter Notebook with exploratory data analysis (EDA) and model training steps.
 
 ## Project Structure
+## 📂 Project Structure
 
+```plaintext
 customer-churn-flask/
 │
-├── templates/ # HTML templates for the web app
-│ └── index.html # Main UI page
+├── templates/                     # HTML templates for the web app
+│   └── index.html                  # Main UI page
 │
-├── app.py # Flask application script
+├── app.py                          # Flask application script
 ├── Capstone_Project_Presentation.pdf # Project presentation slides
-├── README.md # Project documentation
+├── README.md                       # Project documentation
 ├── SonuTamang_CapstoneProject.ipynb # EDA and model training notebook
-├── WA_Fn-UseC_-Telco-Customer-Churn.csv # Dataset
-├── encoder.pkl # Encoded categorical features
-├── scaler.pkl # Feature scaling object
-├── expected_columns.pkl # Expected feature columns for model input
-├── model.pkl # Trained ML model
-└── requirements.txt # Python dependencies
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv  # Dataset
+├── encoder.pkl                     # Encoded categorical features
+├── scaler.pkl                      # Feature scaling object
+├── expected_columns.pkl            # Expected feature columns for model input
+├── model.pkl                       # Trained ML model
+└── requirements.txt                # Python dependencies
 
 
 # Installation & Setup
