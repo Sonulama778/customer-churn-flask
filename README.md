@@ -7,17 +7,17 @@ It uses a machine learning model trained on the Telco Customer Churn dataset to 
 
 ## 📂 Project Structure
 customer-churn-flask/
-│
-├── app.py # Flask application
-├── model.pkl # Trained ML model
-├── encoder.pkl # Label encoder for categorical features
-├── expected_columns.pkl # Expected input columns for the model
-├── WA_Fn-UseC_-Telco-Customer-Churn.csv # Dataset
-├── requirements.txt # Required dependencies
-├── README.md # Project documentation
-├── Capstone_Project_Presentation.pptx
-├── templates/
-  └── index.html # HTML form for user input
+
+- app.py # Flask application
+-  model.pkl # Trained ML model
+-  encoder.pkl # Label encoder for categorical features
+-  expected_columns.pkl # Expected input columns for the model
+- A_Fn-UseC_-Telco-Customer-Churn.csv # Dataset
+- requirements.txt # Required dependencies
+- README.md # Project documentation
+- Capstone_Project_Presentation.pptx
+- templates/
+--- index.html # HTML form for user input
 
 ## How to Run Locally
 
