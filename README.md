@@ -16,7 +16,7 @@ Interactive Jupyter Notebook with exploratory data analysis (EDA) and model trai
 ## Project Structure
 ## 📂 Project Structure
 
-```plaintext
+
 customer-churn-flask/
 │
 ├── templates/                     # HTML templates for the web app
