@@ -14,9 +14,8 @@ Flask backend serving predictions via a web interface.
 Interactive Jupyter Notebook with exploratory data analysis (EDA) and model training steps.
 
 ## Project Structure
-## 📂 Project Structure
 
-
+```
 customer-churn-flask/
 │
 ├── templates/                     # HTML templates for the web app
@@ -32,7 +31,7 @@ customer-churn-flask/
 ├── expected_columns.pkl            # Expected feature columns for model input
 ├── model.pkl                       # Trained ML model
 └── requirements.txt                # Python dependencies
-
+```
 
 # Installation & Setup
 ### Clone the repository
